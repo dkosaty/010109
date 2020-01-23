@@ -1,0 +1,40 @@
+\documentclass[12pt, russian]{article}
+\usepackage{cite}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts, amsmath, amssymb, amsthm, mathtools}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp, cmap, comment}
+\usepackage{graphicx, wrapfig}
+\usepackage{epigraph, color, hyperref}
+\usepackage{array, tabularx, tabulary, booktabs}
+\usepackage{euscript, mathrsfs}
+
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+    \begin{center}
+        Дискретная математика и математическая кибернетика.
+    \end{center}
+    
+    \section{Математическое программирование}
+    \subsection{Теоремы о достижении нижней грани функции (функционала) на множестве (в ЕN, в метрических пространствах, в гильбертовых пространствах)}.
+        % \begin{comment} Поляк Б.Т. Введение в оптимизацию. М.: Наука, 1984. \end{comment}
+        
+        \begin{theorem}[Первая теорема Вейерштрасса] Если функция $f(x)$ определена и непрерывна в замкнутом промежутке $[a,b]$ то она ограничена, т.е. существуют такие постоянные и конечные числа $m$ и $M$, что
+        \begin{equation}
+            m < f(x) < M \text{при } a < x < b
+        \end{equation}
+        \end{theorem}
+        \begin{proof}
+            Доказательство см. "Курс дифференционального и интегрального исчисления" под ред. Г.М. Фихтенгольца, Том 1 (стр. 175).
+        \end{proof}
+        
+        \begin{theorem}[Вторая теорема Вейерштрасса] Если функция $f(x)$ определена и непрерывна в замкнутом промежутке $[a,b]$, то она достигает в этом промежутке своих точных верхней и нижней границ.
+        \end{theorem}
+        \begin{proof}
+            Доказательство см. "Курс дифференционального и интегрального исчисления" под ред. Г.М. Фихтенгольца, Том 1 (стр. 176).
+        \end{proof}
+    
+\end{document}
